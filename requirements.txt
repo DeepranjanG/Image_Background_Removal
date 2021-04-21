@@ -1,0 +1,16 @@
+certifi==2020.12.5
+click==7.1.2
+Flask==1.1.2
+Flask-Cors==3.0.10
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+numpy==1.20.2
+onnx==1.8.1
+onnxruntime==1.6.0
+opencv-python==4.5.1.48
+Pillow==7.1.2
+protobuf==3.15.8
+six==1.15.0
+typing-extensions==3.7.4.3
+Werkzeug==1.0.1

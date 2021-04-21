@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<center>
+    <p class="text">Image Background Removal</p>
+    <p>Upload an image to remove Background
+    <div class="upload-form">
+      <form action = "/uploader" method = "POST" 
+        enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+      </form>
+    </div>
+</center>
+{% endblock %}  
