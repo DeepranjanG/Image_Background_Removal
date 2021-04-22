@@ -3,7 +3,8 @@ from werkzeug.utils import secure_filename
 import inference
 import os
 
-app = Flask(__name__)
+application = Flask(__name__) # initializing a flask app
+app=application
 UPLOAD_FOLDER = 'static/uploads/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0

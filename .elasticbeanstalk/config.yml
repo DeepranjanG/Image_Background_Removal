@@ -1,0 +1,17 @@
+branch-defaults:
+  master:
+    environment: null
+global:
+  application_name: ImageBackgroundRemoval
+  branch: master
+  default_ec2_keyname: null
+  default_platform: Python 3.7.10
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: origin
+  sc: git
+  workspace_type: Application
